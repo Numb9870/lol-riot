@@ -1,0 +1,497 @@
+[
+	{
+		"hero-name": "海洋之灾-普朗克",
+		"alias": ["海洋之灾", "haiyagzhizai", "普朗克", "pulangke", "船长", "chuanzhang"],
+		"img": "../static/img/heroPic/Gangplank.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "牛头酋长-阿里斯塔",
+		"alias": ["牛头酋长", "niutouqiuzhang", "阿里斯塔", "alisita"],
+		"img": "../static/img/heroPic/Alistar.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 95,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 110,
+			"treatment-effect": 80,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "戏命师-烬",
+		"alias": ["戏命师", "ximingshi", "烬", "jin", "瘸子", "quezi"],
+		"img": "../static/img/heroPic/Jhin.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 90,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "诡术妖姬-乐芙兰",
+		"alias": ["诡术妖姬", "guishuyaoji", "乐芙兰", "lefulan", "妖姬", "yaoji"],
+		"img": "../static/img/heroPic/Leblanc.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 105,
+			"toughness": 20,
+			"skill-haste": 20,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 90,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "亡灵战神-塞恩",
+		"alias": ["亡灵战神", "wanglingzhanshen", "塞恩", "saien", "老司机", "laosiji"],
+		"img": "../static/img/heroPic/Sion.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 90,
+			"toughness": -20,
+			"skill-haste": -20,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 110,
+			"treatment-effect": 0,
+			"shield-effect": 80
+		}
+	},
+	{
+		"hero-name": "德玛西亚之翼-奎因",
+		"alias": ["德玛西亚之翼", "demaxiyazhiyi", "奎因", "kuiyin", "鸟姐", "niaojie"],
+		"img": "../static/img/heroPic/Quinn.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 110,
+			"toughness": 20,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 2.5,
+			"take-damage": 90,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "暗裔剑魔-亚托克斯",
+		"alias": ["暗裔剑魔", "anyijianmo", "亚托克斯", "yatuokesi", "剑魔", "jianmo"],
+		"img": "../static/img/heroPic/Aatrox.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 105,
+			"toughness": 20,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 90,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "猩红收割者-弗拉基米尔",
+		"alias": ["猩红收割者", "xinghongshougezhe", "弗拉基米尔", "fulajimier", "吸血鬼", "xixuegui"],
+		"img": "../static/img/heroPic/Vladimir.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 95,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "武器大师-贾克斯",
+		"alias": ["武器大师", "wuqidashi", "贾克斯", "jiakesi"],
+		"img": "../static/img/heroPic/Jax.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 105,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 97,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "披甲龙龟-拉莫斯",
+		"alias": ["披甲龙龟", "pijialonggui", "拉莫斯", "lamosi", "龙龟", "longgui"],
+		"img": "../static/img/heroPic/Rammus.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "魔法猫咪-悠米",
+		"alias": ["魔法猫咪", "mofamaomi", "悠米", "youmi", "猫咪", "maomi"],
+		"img": "../static/img/heroPic/Yuumi.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 105,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 110,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "虚空掠夺者-卡兹克",
+		"alias": ["虚空掠夺者", "xukonglveduozhe", "卡兹克", "kazike", "螳螂", "tanglang"],
+		"img": "../static/img/heroPic/Khazix.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 105,
+			"toughness": 20,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 90,
+			"treatment-effect": 120,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "仙灵女巫-璐璐",
+		"alias": ["仙灵女巫", "xianlingnvwu", "璐璐", "lulu"],
+		"img": "../static/img/heroPic/Lulu.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 105,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 110
+		}
+	},
+	{
+		"hero-name": "天启者-卡尔玛",
+		"alias": ["天启者", "tianqizhe", "卡尔玛", "kaerma", "扇子妈", "shanzima"],
+		"img": "../static/img/heroPic/Karma.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 105,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 95,
+			"treatment-effect": 0,
+			"shield-effect": 110
+		}
+	},
+	{
+		"hero-name": "德玛西亚之力-盖伦",
+		"alias": ["德玛西亚之力", "demaxiyazhili", "盖伦", "gailun", "德玛", "dema"],
+		"img": "../static/img/heroPic/Garen.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 95,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "德玛西亚皇子-嘉文四世",
+		"alias": ["德玛西亚皇子", "demaxiyahuangzi", "嘉文四世", "jiawensishi", "周杰伦", "zhoujielun", "吕布", "lvbu"],
+		"img": "../static/img/heroPic/JarvanIV.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 95,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "熔岩巨兽-墨菲特",
+		"alias": ["熔岩巨兽", "rongyanjushou", "墨菲特", "mofeite", "石头人", "shitouren"],
+		"img": "../static/img/heroPic/Malphite.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "河流之王-塔姆",
+		"alias": ["河流之王", "heliuzhiwang", "塔姆", "tamu"],
+		"img": "../static/img/heroPic/TahmKench.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 95,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "诺克萨斯之手-德莱厄斯",
+		"alias": ["诺克萨斯之手", "nuokesasizhishou", "德莱厄斯", "delaiesi", "人头狗", "rentougou", "诺手", "nuoshou"],
+		"img": "../static/img/heroPic/Darius.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "远古巫灵-泽拉斯",
+		"alias": ["远古巫灵", "yuanguwuling", "泽拉斯", "zelasi", "三炮", "sanpao"],
+		"img": "../static/img/heroPic/Xerath.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 90,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "暮光之眼-慎",
+		"alias": ["暮光之眼", "muguangzhiyan", "慎", "shen", "腰子", "yaozi"],
+		"img": "../static/img/heroPic/Shen.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 105,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "卡牌大师-崔斯特",
+		"alias": ["卡牌大师", "kapaidashi", "崔斯特", "cuisite"],
+		"img": "../static/img/heroPic/TwistedFate.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "不羁之悦-尼菈",
+		"alias": ["不羁之悦", "bujizhiyue", "尼菈", "nila"],
+		"img": "../static/img/heroPic/Nilah.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 95,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 90,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "九尾妖狐-阿狸",
+		"alias": ["九尾妖狐", "jiuweiyaohu", "阿狸", "ali", "狐狸", "huli"],
+		"img": "../static/img/heroPic/Ahri.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "死亡颂唱者-卡尔萨斯",
+		"alias": ["死亡颂唱者", "siwangsongchangzhe", "卡尔萨斯", "kaersasi", "死歌", "sige"],
+		"img": "../static/img/heroPic/Karthus.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 90,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 105,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "百裂冥犬-纳亚菲利",
+		"alias": ["百裂冥犬", "bailiemingquan", "纳亚菲利", "nayafeili", "狗", "gou"],
+		"img": "../static/img/heroPic/Naafiri.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "炼金术士-辛吉德",
+		"alias": ["炼金术士", "lianjinshushi", "辛吉德", "xinjide"],
+		"img": "../static/img/heroPic/Singed.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 90,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 105,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "暴走萝莉-金克丝",
+		"alias": ["暴走萝莉", "baozouluoli", "金克斯", "jinkesi"],
+		"img": "../static/img/heroPic/Jinx.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 90,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 105,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "刀锋之影-泰隆",
+		"alias": ["刀锋之影", "daofengzhiying", "泰隆", "tailong", "男刀", "nandao"],
+		"img": "../static/img/heroPic/Talon.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 105,
+			"toughness": 20,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 95,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "海兽祭司-俄洛伊",
+		"alias": ["海兽祭司", "haishoujisi", "俄洛伊", "eluoyi", "章鱼妈", "zhangyuma"],
+		"img": "../static/img/heroPic/Illaoi.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 95,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 105,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "狂野女猎手-奈德丽",
+		"alias": ["狂野女猎手", "kuangyenvlieshou", "奈德丽", "naideli", "豹女", "baonv"],
+		"img": "../static/img/heroPic/Nidalee.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 110,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 0,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "巨魔之王-特朗德尔",
+		"alias": ["巨魔之王", "jumozhiwang", "特朗德尔", "telangdeer"],
+		"img": "../static/img/heroPic/Trundle.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 0,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 105,
+			"treatment-effect": 95,
+			"shield-effect": 0
+		}
+	},
+	{
+		"hero-name": "含羞蓓蕾-莉莉娅",
+		"alias": ["含羞蓓蕾", "hanxiubeilei", "莉莉娅", "liliya", "狍子", "paozi"],
+		"img": "../static/img/heroPic/Lillia.webp",
+		"version": "v13.14 2023-07-19",
+		"balance": {
+			"cause-damage": 90,
+			"toughness": 0,
+			"skill-haste": 0,
+			"attack-speed-increase-and-growth": 0,
+			"take-damage": 105,
+			"treatment-effect": 0,
+			"shield-effect": 0
+		}
+	}
+]
