@@ -39,7 +39,7 @@ import Foot from '@/components/Foot.vue';
 	}
 
 	.nav {
-		height: 60px;
+		height: 59px;
 		border-bottom: 1px solid #d4d4d4;
 	}
 
@@ -49,8 +49,9 @@ import Foot from '@/components/Foot.vue';
 	}
 
 	.foot {
-		height: 60px;
+		height: 59px;
 		border-top: 1px solid #d4d4d4;
 	}
 }
+
 </style>

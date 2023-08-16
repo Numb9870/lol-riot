@@ -7,6 +7,27 @@ declare module '*.vue' {
 	export default component;
 }
 
+declare module '*.js' {
+
+	interface Interceptor {
+		config : {
+			baseUrl : string,
+			headers : object,
+			dataType : string,
+			responseType : string
+		},
+		interceptor : any,
+		request(options : undefined | object) : Promise<any>,
+		get(url : string, data : object, options ?: undefined | object) : Promise<any>,
+		post(url : string, data : object, options ?: undefined | object) : Promise<any>,
+		put(url : string, data : object, options ?: undefined | object) : Promise<any>,
+		delete(url : string, data : object, options ?: undefined | object) : Promise<any>,
+	}
+
+	const interceptor : Interceptor
+
+	export default interceptor
+}
 
 // 英雄大乱斗平衡
 type Balance = {
@@ -17,4 +38,6 @@ type Balance = {
 	'take-damage' : number;
 	'treatment-effect' : number;
 	'shield-effect' : number;
+	'resource-recovery' : number;
+	'special-abilities' : string
 };
