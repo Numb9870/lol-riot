@@ -27,7 +27,7 @@
 							<p :style="formatColor1(item.balance['shield-effect'])">
 								护盾效果：{{ item.balance['shield-effect'] == 0 ? '0' : `${item.balance['shield-effect']}` }}
 							</p>
-							<p :style="formatColor2(item.balance['resource-recovery'])" v-if="item.balance['resource-recovery'] !== 0">
+							<p :style="formatColor4(item.balance['resource-recovery'])" v-if="item.balance['resource-recovery'] !== 0">
 								施法资源恢复：{{ item.balance['resource-recovery'] }}
 							</p>
 							<p style="color: #08deff" v-if="item.balance['special-abilities'] !== ''">专属平衡：{{ item.balance['special-abilities'] }}</p>
@@ -42,24 +42,27 @@
 <script setup lang="ts">
 import { onBeforeMount, reactive, ref } from 'vue';
 import heros from '@/store/heros.json';
+import { onShow } from '@dcloudio/uni-app';
+
 
 // 滚动条出现的位置
 const scrollTop = ref(0);
 const heroList = reactive<typeof heros>([]);
-const theme = ref('');
+const theme = ref<string | undefined>('');
 
 onBeforeMount(() => {
-	// #ifdef APP-PLUS
-	uni.getSystemInfoSync().theme == 'light' ? (theme.value = 'light') : (theme.value = 'dark');
-	// #endif
 	heros.map((item) => {
 		heroList.push(item);
 	});
 });
 
+onShow(() => {
+	// 动态检测主题模式
+	uni.getSystemInfoSync().theme !== 'undefined' ? (theme.value = uni.getSystemInfoSync().theme) : '';
+});
+
 // 搜索栏发生变化或提交搜索栏  jianmo，yasuo
 uni.$on('searchValueChange', function (data) {
-	
 	// 多个查询（仅支持符号 ','、'，' ）
 	if (data.value.split(',').length > 1) {
 		heroList.length = 0;
@@ -144,6 +147,17 @@ const formatColor3 = (item: any) => {
 	} else if (item > 100) {
 		return `color:red`;
 	} else if (item < 100) {
+		return `color:green`;
+	}
+};
+
+// 高于0显示红色，低于0显示绿色，等于0显示灰色
+const formatColor4 = (item: any) => {
+	if (item == 0) {
+		return `color:#737373`;
+	} else if (item > 0) {
+		return `color:red`;
+	} else if (item < 0) {
 		return `color:green`;
 	}
 };

@@ -2,8 +2,8 @@
     "name" : "LOL",
     "appid" : "__UNI__EA3EB4B",
     "description" : "一个为了打游戏而开发的软件。",
-    "versionName" : "1.1.0",
-    "versionCode" : 2,
+    "versionName" : "1.1.1",
+    "versionCode" : 3,
     "transformPx" : false,
     /* 5+App特有相关 */
     "app-plus" : {
@@ -40,7 +40,8 @@
                     "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
                     "<uses-feature android:name=\"android.hardware.camera\"/>",
                     "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
-                ]
+                ],
+                "minSdkVersion" : 21
             },
             /* ios打包配置 */
             "ios" : {
@@ -55,7 +56,8 @@
                 "androidStyle" : "default",
                 "android" : {
                     "xxhdpi" : "src/static/img/opening- screen.png"
-                }
+                },
+                "useOriginalMsgbox" : true
             },
             "icons" : {
                 "android" : {
